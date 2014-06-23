@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*MY CSS*/
+/*GENERAL CSS*/
+:root{
+	font-family: sans-serif;
+	font-size: 80%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo{
+	height: 100px;
+	width: 300px;
+	background: url('../img/logo11w.png') no-repeat center;
+	background-size: contain;
+	position: relative;
+
+	/*margin-left: 100px;*/
+	margin: 100px 80px 0 250px;
+	/*border: 1px solid blue;*/
+}
+
+#sign a{
+  font-size: 1em !important; 
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 5px; color: white;
+  letter-spacing: 1px;
+  background: blue;
+  border: 1px solid #0000bb;
+  margin-right: 10px;
+}
+
+#wrapper{
+	/*max-width: 940px;*/
+	margin: 2px 5px 1px 5px;
+	padding: 0 0;
+  	text-align: center; 
+}
+#wrapper #section{
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.group:after, .group:before{
+  content: ".";
+  display: table;
+}
+.group:after {
+	clear: both;
+}
+.group{
+	*zoom: 1;
+}
+
+nav{
+	padding: 10px 0;
+	float: right;
+}
+
+.navi a{
+	color: black;
+}
+
+nav li, footer li{
+	display: inline;
+	padding: 0 5px 0 5px;
+
+}
+
+.logo p{
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+input[type="text"]{
+	display: inline-block;
+	width: 700px;
+	height: 20px;
+	/*margin-left: 100px;*/
+}
+
+#search, #lucky{
+	margin-top: 10px;
+}
+
+
+#lang {
+	
+	margin-top: 50px;
+}
+
+#lang a{
+	padding: 0 5px 0 5px;
+}
+
+
+#left-footer{
+	float: left;
+	margin-left: 20px;
+}
+
+#right-footer{
+	float: right;
+	margin-right: 20px;
+}
+
+footer{
+	font-size: 1em;	
+	background-color: lightgrey;
+	margin-top: 220px;
+}
+
+footer ul{
+	list-style: none;}
+
+footer a{
+	color: black;
+	padding-left: 5px;
+	/*margin-bottom: 10px; */}
+
+#country{
+	position: absolute;
+	top: 75px;
+	right: 0px;
+	bottom: 0;
+	left: 230px;
+	font-weight: bold;
+}
+
+
+
+
+/*	background: white;
+	width: 550px;
+	height: 10px;
+	/*margin: 10px 0px 25px 50px*/
+/*	margin-left: 50px;*/
+	/*left: 300px;*/
+
+
+
+/*#searchluck{
+	margin-top: 50px;
+	margin-left: 300px;
+	text-align: center;*/
+
