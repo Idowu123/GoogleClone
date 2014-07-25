@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 S/N:            Andela Project 1
 Title:          Jobseeker
 Description:    This is a clone of the google page.
